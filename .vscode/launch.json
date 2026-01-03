@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VisaManagementApplication<consultancy>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.visa.consultancy.VisaManagementApplication",
+            "projectName": "consultancy",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

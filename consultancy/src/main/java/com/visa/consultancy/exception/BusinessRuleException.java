@@ -1,0 +1,16 @@
+package com.visa.consultancy.exception;
+
+
+
+import org.springframework.http.HttpStatus;
+import lombok.Getter;
+
+@Getter
+public class BusinessRuleException extends RuntimeException {
+    private final HttpStatus status;
+
+    public BusinessRuleException(String message, HttpStatus status) {
+        super(message);
+        this.status = status;
+    }
+}
